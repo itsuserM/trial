@@ -1,72 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>ExPeRTisE</title>
-  <link href="css/style.css" rel="stylesheet">
-</head>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Expertise - Manish Portfolio</title>
-  <link href="style.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ExPeRTisE</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<canvas id="neon-bg"></canvas>
+<div class="container">
   <nav>
     <a href="index.html">Home</a>
     <a href="expertise.html" class="active">Expertise</a>
     <a href="connect.html">Connect</a>
   </nav>
-
-  <div class="container">
-    <h1>Expertise</h1>
-
-    <div class="cards-grid">
-      <div class="card">
-        <h2>Backend</h2>
-        <ul>
-          <li>Laravel</li>
-          <li>Node.js & Express.js</li>
-          <li>REST APIs</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h2>Frontend</h2>
-        <ul>
-          <li>React.js, Next.js</li>
-          <li>JavaScript, TypeScript</li>
-          <li>Tailwind CSS</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h2>Database</h2>
-        <ul>
-          <li>MongoDB</li>
-          <li>MySQL</li>
-          <li>PostgreSQL</li>
-        </ul>
-      </div>
-
-      <div class="card">
-        <h2>DevOps</h2>
-        <ul>
-          <li>Docker</li>
-          <li>GitHub Actions</li>
-        </ul>
-      </div>
+  <div class="neon-title">Expertise</div>
+  <div style="display:flex; flex-wrap:wrap; justify-content:center; gap:1rem; margin-top:2rem;">
+    <div class="card">
+      <h2>Backend</h2>
+      <ul><li>Laravel</li><li>Node.js & Express.js</li><li>REST APIs</li></ul>
+    </div>
+    <div class="card">
+      <h2>Frontend</h2>
+      <ul><li>React.js, Next.js</li><li>JavaScript, TypeScript</li><li>Tailwind CSS</li></ul>
+    </div>
+    <div class="card">
+      <h2>Database</h2>
+      <ul><li>MongoDB</li><li>MySQL</li><li>PostgreSQL</li></ul>
+    </div>
+    <div class="card">
+      <h2>DevOps</h2>
+      <ul><li>Docker</li><li>GitHub Actions</li></ul>
     </div>
   </div>
-
-  <footer>
-    © 2025 Manish Kumar Maharjan. Some rights reserved.
-  </footer>
-
+  <footer>© 2025 Manish Kumar Maharjan. Some rights reserved.</footer>
+</div>
+<script src="neon-bg.js"></script>
 </body>
 </html>
-
