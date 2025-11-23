@@ -1,36 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>COnnEcT</title>
-  <link href="css/style.css" rel="stylesheet">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>COnnEcT</title>
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-  <!-- Navigation -->
+<canvas id="neon-bg"></canvas>
+<div class="container">
   <nav>
     <a href="index.html">Home</a>
     <a href="expertise.html">Expertise</a>
     <a href="connect.html" class="active">Connect</a>
   </nav>
-
-  <div class="container">
-    <h1>Let's Connect</h1>
-
-    <a href="mailto:mmaharjan699@gmail.com" class="connect-card">
-      <span>GMAIL</span>
-    </a>
-
-    <a href="https://linkedin.com/in/manish-kumar-maharjan-513412309" target="_blank" class="connect-card">
-      <span>LINKEDIN</span>
-    </a>
+  <div class="neon-title">Let's Connect</div>
+  <div style="display:flex; flex-direction:column; gap:1rem; margin-top:2rem;">
+    <a href="mailto:mmaharjan699@gmail.com" class="neon-button">GMAIL</a>
+    <a href="https://linkedin.com/in/manish-kumar-maharjan-513412309" target="_blank" class="neon-button secondary">LINKEDIN</a>
   </div>
-
-  <!-- Footer -->
-  <footer>
-    © 2025 Manish Kumar Maharjan. Some rights reserved.
-  </footer>
-
+  <footer>© 2025 Manish Kumar Maharjan. Some rights reserved.</footer>
+</div>
+<script src="neon-bg.js"></script>
 </body>
 </html>
